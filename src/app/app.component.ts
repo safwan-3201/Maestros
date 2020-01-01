@@ -30,6 +30,11 @@ export class AppComponent {
       title: 'Services',
       url: '/services',
       icon: 'md-construct'
+    },
+    {
+      title: 'Feedback',
+      url: '/feedback',
+      icon: 'md-information-circle'
     }
 
    
