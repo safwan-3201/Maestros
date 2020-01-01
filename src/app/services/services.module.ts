@@ -12,6 +12,7 @@ import { ServicesPage } from './services.page';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     IonicModule,
     ServicesPageRoutingModule
   ],
