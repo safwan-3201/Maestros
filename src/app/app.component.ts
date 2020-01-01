@@ -25,6 +25,11 @@ export class AppComponent {
       title: 'Register User',
       url: '/register',
       icon: 'md-person-add'
+    },
+    {
+      title: 'Services',
+      url: '/services',
+      icon: 'md-construct'
     }
 
    
