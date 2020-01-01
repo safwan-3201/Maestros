@@ -35,6 +35,11 @@ export class AppComponent {
       title: 'Feedback',
       url: '/feedback',
       icon: 'md-information-circle'
+    },
+    {
+      title: 'Contact us',
+      url: '/contactus',
+      icon: 'md-contact'
     }
 
    
