@@ -56,7 +56,8 @@ export class RegisterPage implements OnInit {
       }
     );
   }
-  
+  ////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////
   matchOtherValidator(otherControlName: string) {
     return (control: AbstractControl): { [key: string]: any } => {
       const otherControl: AbstractControl = control.root.get(otherControlName);
