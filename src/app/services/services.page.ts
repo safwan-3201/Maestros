@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-//import { BooksService } from '../sdk/custom/books.service';
+import { BooksService } from '../sdk/custom/books.service';
 import { ModalController, AlertController } from '@ionic/angular';
-//import { AddnewbookComponent } from './addnewbook/addnewbook.component';
+import { AddnewbookComponent } from './addnewbook/addnewbook.component';
 
 @Component({
   selector: 'app-books',
@@ -11,12 +11,13 @@ import { ModalController, AlertController } from '@ionic/angular';
 })
 export class BooksPage implements OnInit {
   loading = false;
-  //books: Books[] = [];
-  //selectedBook: Books;
+  books: Books[] = [];
+  selectedBook: Books;
   deleteLoading = false;
+  booksService: any;
 
   constructor(
-    //private booksService: BooksService,
+    private booksService: BooksService,
     private modalController: ModalController,
     private alertController: AlertController
   ) { }
@@ -26,7 +27,7 @@ export class BooksPage implements OnInit {
     //this.getAll();
   }
 
-  /*openEditPopup(book: Books) {
+  openEditPopup(book: Books) {
     this.openAddModal(book);
   }
 
@@ -97,7 +98,7 @@ export class BooksPage implements OnInit {
       }
     );
   }
-}*/
+}
 
 //interface Books {
   _id: string;
