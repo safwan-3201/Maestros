@@ -20,7 +20,13 @@ export class AppComponent {
       title: 'Login',
       url: '/login',
       icon: 'md-log-in'
+    },
+    {
+      title: 'Register User',
+      url: '/register',
+      icon: 'md-person-add'
     }
+
    
   ];
 
