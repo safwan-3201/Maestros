@@ -11,7 +11,9 @@ import { ModalController, AlertController } from '@ionic/angular';
 })
 export class BooksPage implements OnInit {
   loading = false;
-  books: Books[] = [];
+  //books: Books[] = [];
+  
+  //selectedBook: Books;
   //selectedBook: Books;
   deleteLoading = false;
 
