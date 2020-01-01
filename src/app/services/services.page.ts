@@ -99,9 +99,6 @@ export class BooksPage implements OnInit {
   }
 }*/
 
-
-// Intefacing is Optional
-
 //interface Books {
   _id: string;
   name: string;
