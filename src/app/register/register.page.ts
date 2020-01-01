@@ -55,7 +55,7 @@ export class RegisterPage implements OnInit {
         console.log('error', error);
       }
     );
-  }
+  }*/
   
   matchOtherValidator(otherControlName: string) {
     return (control: AbstractControl): { [key: string]: any } => {
@@ -74,5 +74,5 @@ export class RegisterPage implements OnInit {
         ? { match: true }
         : null;
     };
-  }*/
+  }
 }
